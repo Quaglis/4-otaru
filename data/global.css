@@ -21,6 +21,9 @@ main {
 	background: #333;
 	border-radius: 10px;
 }
+main > div {
+	margin: 20px 0;
+}
 footer {
 	padding-top: 15px;
 	border-top: #888 solid 1px;
