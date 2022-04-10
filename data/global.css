@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	background: #333;
+	background: #222;
 	padding: 50px 25px;
 	display: flex;
 	justify-content: center;
@@ -18,7 +18,7 @@ h1 {
 main {
 	padding: 30px 20px;
 	max-width: 600px;
-	background: #444;
+	background: #333;
 	border-radius: 10px;
 }
 footer {
@@ -68,13 +68,13 @@ header nav {
 	margin: 3px 0 0 -10px;
 	padding: 10px;
 	border-radius: 10px;
-	background: #444;
+	background: #333;
 	display: none;
 	flex-direction: column;
-	box-shadow: 0 0 3px orange;
+	box-shadow: 0 0 5px black;
 }
 header div {
-	background: #333;
+	background: #222;
 	padding: 0 7px 3px 7px;
 	border-radius: 10px;
 	transition-property: background;
@@ -84,7 +84,7 @@ header div:hover > nav {
 	display: flex;
 }
 header div:hover {
-	background: #555;
+	background: #444;
 }
 .grid {
 	display: grid;
