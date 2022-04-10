@@ -27,15 +27,25 @@ footer {
 	display: flex;
 	justify-content: space-around;
 }
-
+img {
+	width: 100%;
+}
 a {
 	color: orange;
 	margin: 5px 0;
 	text-decoration: none;
 }
+b {
+	font-weight: 500;
+}
+strong {
+	font-size: 1.8em;
+	font-weight: 400;
+}
 p {
 	font-weight: 100;
 	font-size: 1.3em;
+	text-spacing: 1em;
 }
 a:hover {
 	color: #ff6a00;
@@ -78,4 +88,5 @@ header div:hover {
 }
 .grid {
 	display: grid;
+	grid-template-columns: 60% 40%;
 }
